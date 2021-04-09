@@ -5,7 +5,7 @@
 
 - **plotGraphRewards.py** : Contains Python Script for creating Smoothened Average Rewards Graph from given .npy file.
 
-- **plotGraphQValues.py** : Contains Python Script for creating Smoothened Average Average Maximum Action Values Graph from given .npy file.
+- **plotGraphQValues.py** : Contains Python Script for creating Smoothened Average Maximum Action Values Graph from given .npy file.
 
 - **Performance/** : Folder containing all 16 plots as mentioned in assignment, training the DQN over 4 Atari Games, namely : Breakout, Space Invaders, QBert and Beam Rider.
 
