@@ -12,14 +12,14 @@
   
 After installation of all above dependencies, to run DQN without Experience Replay : 
 
->>> python DQN_main.py <Game Name> 
+>>> python DQN_main.py (Game Name) 
 <Game Name> can be Breakout, SpaceInvaders, Seaquest etc.
   
 The execution of above commands will result in formation of Rewards_DQN_<Game Name>.npy and Q_DQN_<Game Name>.npy.
   
 To plot the results, run plotGraphRewards.py
 
->>> python plotGraphRewards.py <Game Name>
+>>> python plotGraphRewards.py (Game Name)
   
 To plot Maximum Action Values, run plotQValues.py
 
