@@ -8,43 +8,43 @@
 
 #### Without Experience Replay
 
-<Game Name> can be Breakout, SpaceInvaders, Seaquest etc.
+(Game Name) can be Breakout, SpaceInvaders, Seaquest etc.
   
 After installation of all above dependencies, to run DQN without Experience Replay : 
 
-> python DQN_main.py (Game Name) 
-<Game Name> can be Breakout, SpaceInvaders, Seaquest etc.
+python DQN_main.py (Game Name) 
+(Game Name) can be Breakout, SpaceInvaders, Seaquest etc.
   
-The execution of above commands will result in formation of Rewards_DQN_<Game Name>.npy and Q_DQN_<Game Name>.npy.
+The execution of above commands will result in formation of Rewards_DQN_(Game Name).npy and Q_DQN_(Game Name).npy.
   
 To plot the results, run plotGraphRewards.py
 
->>> python plotGraphRewards.py (Game Name)
+python plotGraphRewards.py (Game Name)
   
 To plot Maximum Action Values, run plotQValues.py
 
->>> python plotQValues.py <Game Name>
+python plotQValues.py (Game Name)
 
-The execution of the above commands will result in Rewards_DQN_<Game Name>.png and Q_DQN_<Game Name>.png which contain the graphs.
+The execution of the above commands will result in Rewards_DQN_(Game Name).png and Q_DQN_(Game Name).png which contain the graphs.
   
   
   
 #### With Experience Replay
 
-<Game Name> can be Breakout, SpaceInvaders, Seaquest etc.
+(Game Name) can be Breakout, SpaceInvaders, Seaquest etc.
 
->>> python DQN_main.py <Game Name> er
-<Game Name> can be Breakout, SpaceInvaders, Seaquest etc.
+python DQN_main.py (Game Name) er
+(Game Name) can be Breakout, SpaceInvaders, Seaquest etc.
   
-The execution of above commands will result in formation of Rewards_DQN_<Game Name>_ExpReplay.npy and Q_DQN_<Game Name>_ExpReplay.npy.
+The execution of above commands will result in formation of Rewards_DQN_(Game Name)_ExpReplay.npy and Q_DQN_(Game Name)_ExpReplay.npy.
   
 To plot the results, run plotGraphRewards.py
 
->>> python plotGraphRewards.py <Game Name> er
+python plotGraphRewards.py (Game Name) er
   
 To plot Maximum Action Values, run plotQValues.py
 
->>> python plotQValues.py <Game Name> er
+python plotQValues.py (Game Name) er
 
 The execution of the above commands will result in Rewards_DQN_<Game Name>_ExpReplay.png and Q_DQN_<Game Name>_ExpReplay.png which contain the graphs.
   
