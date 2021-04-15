@@ -19,13 +19,13 @@ python DQN_main.py (Game Name)
 The execution of above commands will result in formation of Rewards_DQN_(Game Name).npy and Q_DQN_(Game Name).npy.
   
 To plot the results, run plotGraphRewards.py
-
+```sh
 python plotGraphRewards.py (Game Name)
-  
+```
 To plot Maximum Action Values, run plotQValues.py
-
+```sh
 python plotQValues.py (Game Name)
-
+```
 The execution of the above commands will result in Rewards_DQN_(Game Name).png and Q_DQN_(Game Name).png which contain the graphs.
   
   
@@ -33,20 +33,21 @@ The execution of the above commands will result in Rewards_DQN_(Game Name).png a
 #### With Experience Replay
 
 (Game Name) can be Breakout, SpaceInvaders, Seaquest etc.
-
+```sh
 python DQN_main.py (Game Name) er
+```
 (Game Name) can be Breakout, SpaceInvaders, Seaquest etc.
   
 The execution of above commands will result in formation of Rewards_DQN_(Game Name)_ExpReplay.npy and Q_DQN_(Game Name)_ExpReplay.npy.
   
 To plot the results, run plotGraphRewards.py
-
+```sh
 python plotGraphRewards.py (Game Name) er
-  
+```  
 To plot Maximum Action Values, run plotQValues.py
-
+```sh
 python plotQValues.py (Game Name) er
-
+```
 The execution of the above commands will result in Rewards_DQN_<Game Name>_ExpReplay.png and Q_DQN_<Game Name>_ExpReplay.png which contain the graphs.
   
   
@@ -54,15 +55,16 @@ The execution of the above commands will result in Rewards_DQN_<Game Name>_ExpRe
 
 Afer installation of NEAT-Python Library, to run the optimization :
 
->>> python NEAT_Optimization/neat_gym.py <Game Name> 
-  
+```sh
+python NEAT_Optimization/neat_gym.py <Game Name> 
+```  
 
 
 ### File-wise Description
 
 - **DQN_main.py** : Rewards and Average Maximum Action Values on Atari Games are calculated over episodes using OpenAI Gym Environment
 
-- **plotGraphRewards.py** : Contains Python Script for creating Smoothened Average Rewards Graph from given .npy file.
+- **plotGraphRewards.py** : Contains Python Script for creating Smoothened Average Rewards Graph from given .npy file```.
 
 - **plotGraphQValues.py** : Contains Python Script for creating Smoothened Average Maximum Action Values Graph from given .npy file.
 
