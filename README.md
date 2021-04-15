@@ -51,6 +51,14 @@ python plotQValues.py (Game Name) er
 The execution of the above commands will result in Rewards_DQN_<Game Name>_ExpReplay.png and Q_DQN_<Game Name>_ExpReplay.png which contain the graphs.
   
   
+  ### To get Graphs of Preloaded weights, execute commands:
+
+```sh
+python plotGraphRewards.py Breakout er
+python plotQValues.py Breakout er
+```
+
+  
 - To run the NEAT Optimization for Hyperparameters, we need additional installation of NEAT-Python Library
 
 Afer installation of NEAT-Python Library, to run the optimization :
